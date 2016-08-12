@@ -1,0 +1,26 @@
+/* styles for demo page only */
+body{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Bitter', 'serif';
+    background-color: #e5d7c3;
+    padding-bottom: 3em;
+}
+h1{
+    font-family: 'Raleway', 'sans-serif'; 
+    font-weight: 900;
+    font-size: 3em;
+}
+h2{
+    font-family: 'Raleway', 'sans-serif'; 
+    font-weight: 600;
+    margin-bottom: 0;
+}
+a{
+    color: #777;
+}
+.intro{
+    font-size: 1.2em;
+    padding-bottom: 1em;
+    border-bottom: 1px dashed #777; 
+}
