@@ -50,7 +50,7 @@ a:hover, a:visited, a{
 	margin-top: 9px;
 	font-size: 20px;
 	font-weight: 300;
-	color:#272727;
+	color:#333333;
 }
 
 .navbar-default {
@@ -65,11 +65,11 @@ a:hover, a:visited, a{
 	-ms-transition:all 0.7s ease 0s;
 }
 .navbar-toggle span{
-	color: #272727;
+	color: #333333;
 }
 
 .navbar-toggle i{
-	color:#272727;
+	color:#333333;
 }
 ul.nav{
 	margin: 0;
@@ -77,7 +77,7 @@ ul.nav{
 }
 .navbar-default .navbar-nav>li>a {
  	font-size: 12px;
-	color: #7e8287;
+	color: #333333;
 	text-transform: uppercase;
 	font-weight: 500;
 	transition: all .7s ease 0s;
@@ -107,7 +107,7 @@ nav ul li a:before {
   top: 0px;
 }
 nav ul li a:hover {
-  color: #272727;
+  color: #333333;
 }
 
 
@@ -159,9 +159,9 @@ nav.fill ul li a:hover:after {
 
 
 
-/*banner area*/
+/*banner area landing page*/
 .banner{
-	background: url(../img/banner.jpg);
+	background: url(../img/banner.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -174,39 +174,48 @@ nav.fill ul li a:hover:after {
 }
 .banner h3{
 	font-size: 18px;
-	color: #7e8287;
+	color: #333333;
 	margin-top: 190px;
 	font-weight: 500;
 }
 .banner h1{
 	font-size: 68px;
-	color: #272727;
+	color: #333333;
 	font-weight: 100;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 }
 
 .banner h2{
-	font-size: 18px;
-	color: #7e8287;
-	margin-bottom: 70px;
+	font-size: 32px;
+	color: #333333;
+	margin-bottom: 16px;
+	font-weight: 500;
+
+}
+
+.banner h3{
+	font-size: 24px;
+	color: #333333;
+	margin-top: 0px;
+	margin-bottom: 16px;
 	font-weight: 500;
 
 }
 
 .banner h4{
 	font-size: 12px;
-	color: #7e8287;
+	color: #333333;
 	margin-top: 190px;
 	font-weight: 500;
 }
 
 .banner p{
 	font-size: 18px;
-	color: #7e8287;
+	color: #333333;
 }
 .banner img{
-	margin: 50px;
+	margin: 30px;
 }
 /*--*/
 
@@ -224,11 +233,11 @@ nav.fill ul li a:hover:after {
   transform: translateY(-50%);
   width: 200px;
   margin-bottom: 90px;
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 .svg-button a{
-	color:#343A40; 
+	color:#C6C5C9; 
     text-decoration:none; 
     cursor:pointer;
 }
@@ -238,18 +247,19 @@ nav.fill ul li a:hover:after {
     stroke-dasharray: 760;
     stroke-dashoffset: 0;
     stroke-width: 2px;
-  stroke: #272727;
+  stroke: #C6C5C9;
   transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1)
 }
 
 .svg-button .text {
-  color: #272727;
+  color: #C6C5C9;
   font-family: 'Open Sans';
   font-size: 16px;
   letter-spacing: 0px;
   line-height: 32px;
   position: relative;
   top: -50px;
+  text-align: center;
 }
 
 @keyframes draw {
@@ -279,12 +289,12 @@ transition-duration: 0.3s;
 
 .btn{
   position: relative;
-  color: #272727;
+  color: #333333;
   text-decoration: none;
 }
 
 .btn:hover{
-	color: #272727;
+	color: #333333;
  	
 }
 
@@ -295,7 +305,7 @@ transition-duration: 0.3s;
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #272727;
+  background-color: #333333;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -347,7 +357,7 @@ transition-duration: 0.3s;
 
 /*MY SKILLS  section*/
 .about{
-	background: #272727;
+	background: #333333;
 }
 .about h2{
 	font-size: 46px;
@@ -410,12 +420,12 @@ transition-duration: 0.3s;
 }
 
 .single-about:hover{
-	-moz-osx-font-smoothing: #272727;
+	-moz-osx-font-smoothing: #333333;
 	 overflow: hidden;
   -webkit-transition-duration: 0.3s;
 	transition-duration: 0.3s;
 	background: white;
-	color: #7e8287;
+	color: #333333;
 
 }
 .single-about h3{
@@ -428,22 +438,22 @@ transition-duration: 0.3s;
 }
 .single-about p{
 	font-size: 12px;
-	color: #7e8287;
+	color: #333333;
 	margin-bottom: 10px;
 }
 
 .single-about:hover h3{
-	color: #272727;
+	color: #333333;
 }
 /*HIGHLIGHTS area*/
 .service{
 	margin: 0;
 	padding: 0;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 	position: relative;
 	margin-bottom: 100px;
+	
+	background-position: center;
+
 }
 .service-overlay{
 	position: relative;
@@ -455,7 +465,7 @@ transition-duration: 0.3s;
 }
 .service h2{
 	font-size: 46px;
-	color: #272727;
+	color: #333333;
 	text-transform: uppercase;
 	font-weight: 100;
 	text-align: center;
@@ -465,7 +475,7 @@ transition-duration: 0.3s;
 
 .service p{
 	font-size: 16px;
-	color: #7e8287;
+	color: #333333;
 	margin-bottom: 50px;
 	line-height:200%;
 	align:left;
@@ -511,12 +521,12 @@ transition-duration: 0.3s;
 
 .explist li, h5{
 	font-weight: 700;
-	color: #7e8287;
+	color: #333333;
 }
 
 
 .explist text{
-	font-size:14px; margin-left: 0px; color:#7e8287; position: relative;
+	font-size:14px; margin-left: 0px; color:#333333; position: relative;
 }
 
 /*
@@ -530,7 +540,7 @@ transition-duration: 0.3s;
 .service h4{
 	font-size: 14px;
 	text-transform: uppercase;
-	color: #272727;
+	color: #333333;
 	margin-top: 30px;
 	margin-bottom: 20px;
 	margin-left: 0px;
@@ -598,11 +608,11 @@ transition-duration: 0.3s;
 
 .single-service h3{
 	font-size: 16px;
-	color: #7e8287;
+	color: #333333;
 }
 .single-service p{
 	font-size: 11px;
-	color: #7e8287;
+	color: #333333;
 	margin-top: 5px;
 }
 .single-service:hover.single-service i.fa{
@@ -616,7 +626,7 @@ transition-duration: 0.3s;
 }
 /*portfolio area*/
 .portfolio{
-	background: #272727;
+	background: #333333;
 	position: relative;
 	width: 100%;
 }
@@ -688,7 +698,7 @@ transition-duration: 0.3s;
 }
 .portfolio-details h4{
 	font-size: 24px;
-	color: #272727;
+	color: #333333;
 	font-weight: 500;
 	margin-top: 70px;
 	text-transform: uppercase;
@@ -698,7 +708,7 @@ transition-duration: 0.3s;
 
 .portfolio-details p{
 	font-size: 14px;
-	color: #7e8287;
+	color: #333333;
 	padding: 5px 20px;
 	margin: 40px;
 	font-weight: 500;
@@ -710,7 +720,7 @@ transition-duration: 0.3s;
 }
 .contact h2{
 	font-size: 46px;
-	color: #272727;
+	color: #333333;
 	text-transform: uppercase;
 	font-weight: 100;
 	text-align: center;
@@ -721,7 +731,7 @@ transition-duration: 0.3s;
 
 .contact p{
 	font-size: 16px;
-	color: #7e8287;
+	color: #333333;
 	margin-bottom: 40px;
 	line-height:200%;
 	align:left;
@@ -737,7 +747,7 @@ transition-duration: 0.3s;
 }
 .mycontacts p{
 	font-size: 14px;
-	color: #7e8287;
+	color: #333333;
 	line-height:200%;
 	text-align:left;
 
@@ -1089,11 +1099,6 @@ transition-duration: 0.3s;
 
 }
 
-.dm p{
-	font-size: 18px;
-	color: #7e8287;
-	margin-bottom: 30px;
-}
 .dm img{
 	margin-top: 50px;
 	margin-bottom: 70px
@@ -1101,7 +1106,7 @@ transition-duration: 0.3s;
 
 .dm-about h2{
 	font-size: 24x;
-	color: #272727;
+	color: #333333;
 	text-transform: uppercase;
 	font-weight: 100;
 	text-align: left;
@@ -1110,7 +1115,7 @@ transition-duration: 0.3s;
 }
 .dm-about p{
 	font-size: 16px;
-	color: #7e8287;
+	color: #333333;
 	margin-bottom: 40px;
 	line-height:200%;
 	align:left;
@@ -1134,6 +1139,80 @@ transition-duration: 0.3s;
 	background:#564345;
 	align:center;
 }
+
+/*design sytem*/
+.ds{
+	background: url(../img/design-system-banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+.ds h1{
+	font-size: 68px;
+	color: #fff;
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 150px;
+}
+
+.ds h2{
+	font-size: 24px;
+	color: #fff;
+	margin-bottom: 0px;
+	font-weight: 500;
+	margin-top: 50px;
+
+}
+
+.ds p{
+	font-size: 18px;
+	color: #333333;
+	margin-bottom: 30px;
+}
+.ds img{
+	margin-top: 50px;
+	margin-bottom: 70px
+}
+
+/*Free Trial*/
+.trial{
+	background: url(../img/free-trial-banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+.trial h1{
+	font-size: 68px;
+	color: #fff;
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 150px;
+}
+
+.trial h2{
+	font-size: 24px;
+	color: #fff;
+	margin-bottom: 0px;
+	font-weight: 500;
+	margin-top: 50px;
+
+}
+
+.trial p{
+	font-size: 18px;
+	color: #333333;
+	margin-bottom: 30px;
+}
+.trial img{
+	margin-top: 50px;
+	margin-bottom: 70px
+}
+
+
 .security{
 	background: url(../img/security-bg@2x.png);
 	background-repeat: no-repeat;
@@ -1162,7 +1241,7 @@ transition-duration: 0.3s;
 
 .security p{
 	font-size: 18px;
-	color: #7e8287;
+	color: #333333;
 	margin-bottom: 30px;
 }
 .security img{
@@ -1172,7 +1251,7 @@ transition-duration: 0.3s;
 
 .security-about h2{
 	font-size: 24x;
-	color: #272727;
+	color: #333333;
 	text-transform: uppercase;
 	font-weight: 100;
 	text-align: left;
@@ -1181,7 +1260,7 @@ transition-duration: 0.3s;
 }
 .security-about p{
 	font-size: 16px;
-	color: #7e8287;
+	color: #333333;
 	margin-bottom: 40px;
 	line-height:200%;
 	align:left;
@@ -1261,6 +1340,13 @@ responsive area
 	.about-inside{
 		padding: 0px;
 	}
+}
+.banner{
+	background: url(../img/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
 }
 
 
