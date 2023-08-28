@@ -474,7 +474,7 @@ transition-duration: 0.3s;
 }
 
 .service p{
-	font-size: 16px;
+	font-size: 20px;
 	color: #333333;
 	margin-bottom: 50px;
 	line-height:200%;
@@ -647,7 +647,7 @@ transition-duration: 0.3s;
 }
 
 .portfolio p{
-	font-size: 16px;
+	font-size: 20px;
 	color: #cdcdcd;
 	margin-bottom: 50px;
 	line-height:200%;
@@ -730,7 +730,7 @@ transition-duration: 0.3s;
 
 
 .contact p{
-	font-size: 16px;
+	font-size: 20px;
 	color: #333333;
 	margin-bottom: 40px;
 	line-height:200%;
