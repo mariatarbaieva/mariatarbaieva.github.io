@@ -9,7 +9,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 /*::selection {
@@ -50,7 +50,7 @@ a:hover, a:visited, a{
 	margin-top: 9px;
 	font-size: 20px;
 	font-weight: 300;
-	color:#333333;
+	color:#000000;
 }
 
 .navbar-default {
@@ -165,8 +165,14 @@ nav.fill ul li a:hover:after {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-
+	
 }
+.banner-container{
+	width: 60%;
+	align-items: center;
+	display: flex;
+} 
+
 
 .empty{
 	position: relative;
@@ -179,12 +185,20 @@ nav.fill ul li a:hover:after {
 	font-weight: 500;
 }
 .banner h1{
-	font-size: 68px;
-	color: #333333;
-	font-weight: 100;
-	text-transform: uppercase;
-	letter-spacing: 5px;
+	font-size: 10rem;
+	color: #ffffff;
+	margin-top: -2%;
+	font-weight: 600;
+	line-height: 1.2;
+	white-space: nowrap;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	
+	
 }
+
 
 .banner h2{
 	font-size: 32px;
@@ -210,12 +224,64 @@ nav.fill ul li a:hover:after {
 	font-weight: 500;
 }
 
-.banner p{
-	font-size: 18px;
-	color: #333333;
-}
+
 .banner img{
 	margin: 30px;
+}
+
+
+.container {
+  color: #ffffff;
+  font-size: 10rem;
+  text-transform: ;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  margin-top: 10%;
+}
+
+.animation {
+  height:120px;
+  overflow:hidden;
+  margin-left: 2rem;
+  text-align: left;
+}
+
+.animation > div > div {
+  padding: 0.25rem 0.75rem;
+  height:2.81rem;
+  margin-bottom: 2.81rem;
+  display:inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+
+.first div {
+  color:#F2C94C
+   ;
+}
+.second div {
+  color: #AC98F0;
+}
+.third div {
+	color:#CDFA7D;
+}
+
+@keyframes text-animation {
+  0% {margin-top: -1.7rem;}
+  10% {margin-top: -1.7rem;}
+  20% {margin-top: -15.82rem;}
+  30% {margin-top: -15.82rem;}
+  40% {margin-top: -30.14rem;}
+  60% {margin-top: -30.14rem;}
+  70% {margin-top: -15.82rem;}
+  80% {margin-top: -15.82rem;}
+  90% {margin-top: -1.7rem;}
+  100% {margin-top: -1.7rem;}
 }
 /*--*/
 
@@ -232,12 +298,14 @@ nav.fill ul li a:hover:after {
   top: 50%;
   transform: translateY(-50%);
   width: 200px;
-  margin-bottom: 90px;
-  margin-top: 60px;
+  margin-bottom: 140px;
+  margin-top: -20px;
+  margin-right: 30px;
+
 }
 
 .svg-button a{
-	color:#C6C5C9; 
+	color:#CDFA7D; 
     text-decoration:none; 
     cursor:pointer;
 }
@@ -247,7 +315,7 @@ nav.fill ul li a:hover:after {
     stroke-dasharray: 760;
     stroke-dashoffset: 0;
     stroke-width: 2px;
-  stroke: #C6C5C9;
+  stroke: #CDFA7D;
   transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1)
 }
 
