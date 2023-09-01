@@ -305,13 +305,13 @@ nav.fill ul li a:hover:after {
 }
 
 .svg-button a{
-	color:#CDFA7D; 
+	color:#; 
     text-decoration:none; 
     cursor:pointer;
 }
 
 .svg-button .shape {
-  fill: transparent;
+  fill: # ;
     stroke-dasharray: 760;
     stroke-dashoffset: 0;
     stroke-width: 2px;
@@ -319,9 +319,10 @@ nav.fill ul li a:hover:after {
   transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1)
 }
 
+
 .svg-button .text {
-  color: #C6C5C9;
-  font-family: 'Open Sans';
+  color: #CDFA7D;
+  font-family: 'Lato', sans-serif;
   font-size: 16px;
   letter-spacing: 0px;
   line-height: 32px;
@@ -335,11 +336,16 @@ nav.fill ul li a:hover:after {
     stroke-dasharray: 40 540;
     stroke-dashoffset: -339;
     stroke-width: 4px;
+	
+	;
   }
   0% {
     stroke-dasharray: 760;
     stroke-dashoffset: 0;
     stroke-width: 2px;
+	
+	
+	
   }
 }
 
@@ -353,6 +359,72 @@ nav.fill ul li a:hover:after {
 letter-spacing: 5px;
 transition-duration: 0.3s; 
 }
+/*svg button2*/
+
+.svg-button2 {
+	height: 30px;
+	  margin: 0 auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 200px;
+	margin-bottom: 140px;
+	margin-top: -20px;
+	margin-right: 30px;
+  
+  }
+  
+  .svg-button2 a{
+	  color:#; 
+	  text-decoration:none; 
+	  cursor:pointer;
+  }
+  
+  .svg-button2 .shape {
+	fill: transparent;
+	  stroke-dasharray: 40 540;
+	  stroke-dashoffset: -339;
+	  stroke-width: 4px;
+	stroke: #AC98F0;
+	transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1)
+  }
+  
+  
+  .svg-button2 .text {
+	color: #AC98F0;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	letter-spacing: 0px;
+	line-height: 32px;
+	position: relative;
+	top: -50px;
+	text-align: center;
+  }
+  
+  @keyframes draw2 {
+	0% {
+	  stroke-dasharray: 40 540;
+	  stroke-dashoffset: -339;
+	  stroke-width: 4px;
+	}
+	100% {
+	  stroke-dasharray: 760;
+	  stroke-dashoffset: 0;
+	  stroke-width: 2px;
+	}
+  }
+  
+  .svg-button2:hover .shape {
+	-webkit-animation: 0.5s draw2 linear forwards;
+	animation: 0.5s draw2 linear forwards;
+  }
+  
+  .svg-button2:hover{
+	  font-weight: 500;
+  letter-spacing: 5px;
+  transition-duration: 0.3s; 
+  }
+
 
 
 .btn{
