@@ -425,7 +425,76 @@ transition-duration: 0.3s;
   transition-duration: 0.3s; 
   }
 
+/*SVG button3*/
 
+.svg-button3 {
+	height: 30px;
+	  margin: 0 auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 200px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+  
+  }
+  
+  .svg-button3 a{
+	  color:#; 
+	  text-decoration:none; 
+	  cursor:pointer;
+  }
+  
+  .svg-button3 .shape {
+	fill: # ;
+	  stroke-dasharray: 760;
+	  stroke-dashoffset: 0;
+	  stroke-width: 2px;
+	stroke: #CDFA7D;
+	transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1)
+  }
+  
+  
+  .svg-button3 .text {
+	color: #CDFA7D;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	letter-spacing: 0px;
+	line-height: 32px;
+	position: relative;
+	top: -50px;
+	text-align: center;
+  }
+  
+  @keyframes draw {
+	100% {
+	  stroke-dasharray: 40 540;
+	  stroke-dashoffset: -339;
+	  stroke-width: 4px;
+	  
+	  ;
+	}
+	0% {
+	  stroke-dasharray: 760;
+	  stroke-dashoffset: 0;
+	  stroke-width: 2px;
+	  
+	  
+	  
+	}
+  }
+  
+  .svg-button3:hover .shape {
+	-webkit-animation: 0.5s draw linear forwards;
+	animation: 0.5s draw linear forwards;
+  }
+  
+  .svg-button3:hover{
+	  font-weight: 500;
+  letter-spacing: 5px;
+  transition-duration: 0.3s; 
+  }
 
 /*MY SKILLS  section*/
 .about{
@@ -718,7 +787,7 @@ transition-duration: 0.3s;
 	font-weight: 600;
 	text-align: center;
 	margin-top: 75px;
-	margin-bottom: 40px;
+	margin-bottom: 80px;
 	
 }
 
@@ -728,13 +797,15 @@ transition-duration: 0.3s;
 }
 
 .portfolio p{
-	font-size: 20px;
-	color: #cdcdcd;
-	margin-bottom: 50px;
+	font-size: 24px;
+	color: #ffffff;
+	margin-bottom: ;
 	line-height:200%;
 	align:left;
+	font-weight: 600;
 
 }
+
 
 
 .single-portfolio{
@@ -752,6 +823,7 @@ transition-duration: 0.3s;
 	position: relative;
 	z-index: 10;
 	background-size: cover;
+	
 }
 .portfolio-details{
 	position: absolute;
@@ -760,16 +832,18 @@ transition-duration: 0.3s;
   	left: 0px;
 	width: 100%;
 	height: 100%;
-	background: rgba(255, 255, 255, 0.95);
+	background: #0C0915;
 	visibility: hidden;
 	opacity: 0;
+	align-items: ;
 }
 
 
 .single-portfolio:hover .portfolio-details{
 	visibility: visible;
-	opacity: 1;
+	opacity: 0.9;
 	transition-duration: 0.3s;
+	
 }
 .portfolio-item img{
 	margin: 0;
@@ -794,6 +868,13 @@ transition-duration: 0.3s;
 	margin: 40px;
 	font-weight: 500;
 	line-height: 200%;
+}
+.single-portfolio a:hover{
+	color:#CDFA7D;
+}
+
+.single-portfolio a{
+	color:#ffffff;
 }
 /*contact area*/
 .contact{
