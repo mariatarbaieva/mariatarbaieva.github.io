@@ -1066,7 +1066,90 @@ transition-duration: 0.3s;
 
 
 
+/*Video Edit*/
 
+.videoedit{
+	background: url(../img/banner-videoedit-wireframes.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.processbg{
+	background: url(../img/processbg.jpg);
+	
+	background-position: center;
+}
+
+.videoedit h3{
+	font-size: 18px;
+	color: #7e8287;
+	margin-top: 205px;
+	font-weight: 500;
+	margin-top: 100px;
+}
+.videoedit h1{
+	font-size: 10rem;
+	color:#7450CC;
+	font-weight: 600;
+	text-transform: ;
+	letter-spacing: 5px;
+	margin-top: 150px;
+}
+
+.videoedit h2{
+	font-size: 24px;
+	color: #333333;
+	margin-bottom: 0px;
+	font-weight: 500;
+	margin-top: 50px;
+
+}
+
+.videoedit p{
+	font-size: 18px;
+	color: #7e8287;
+	margin-bottom: 30px;
+}
+.videoedit img{
+	margin-top: 50px;
+	margin-bottom: 70px
+}
+
+.videoedit-about h2{
+	font-size: 24x;
+	color: #272727;
+	text-transform:
+	font-weight: 400;
+	line-height: 1.8;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+
+	
+	
+}
+.videoedit-about p{
+	font-size: 16px;
+	color: #7e8287;
+	margin-bottom: 40px;
+	line-height:200%;
+	align:left;
+}
+.videoedit-about img{
+	margin-top: 0px;
+	margin-bottom: 10px
+}
+.imgContainer{
+  margin-top:0px;
+  float: left;
+}
+
+.videoedit-gallery img{
+	margin-top: 20px;
+	margin-bottom: 100px
+}
 
 
 
